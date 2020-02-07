@@ -336,7 +336,7 @@
 //===========================================================================
 // Creality Ender 3 Options - Select 'Sanguino 1284p' from Tools > Board
 //===========================================================================
-//#define ENDER3
+#define ENDER3
 
 // If you are using our EZOut V1/V2 (connected to LCD header) filament sensor kit please follow the install guide
 // and then uncomment the #define EZOUT_ENABLE line below.
@@ -381,7 +381,7 @@
 //#define EZOUTV2_DUAL_ENABLE
 
 // Use Ender Bootscreeen instead of TH3D
-//#define ENDER_BOOT
+#define ENDER_BOOT
 
 //===========================================================================
 // Creality Ender 4 Options - Select 'Arduino Mega 2560' from Tools > Board
@@ -981,7 +981,7 @@
 //#define FAN_FIX
 
 // Use your own printer name
-//#define USER_PRINTER_NAME "CHANGE ME" 
+#define USER_PRINTER_NAME "Ender 3" 
 
 // If your printer is homing to the endstops hard uncomment this to change the homing speed/divisor to make it less aggressive.
 //#define SLOWER_HOMING
@@ -1010,7 +1010,7 @@
 // LINEAR ADVANCE ----------------------------------
 // See here on how to use Linear Advance: http://marlinfw.org/docs/features/lin_advance.html
 // NOTE: Linear Advance does NOT work with the Creality Silent boards or the CR-10 V2.
-//#define LINEAR_ADVANCE
+#define LINEAR_ADVANCE
 // Change the K Value here or use M900 KX.XX in your starting code (recommended).
 #define LINEAR_ADVANCE_K 0
 // NOTE: If using linear advance along with EZABL on a printer with 1284p some Control > Motion menus will not be displayed due to space restrictions.
@@ -1052,8 +1052,8 @@
 // There are 2 new acceleration/jerk controls available in this firmware that can result is better print quality and
 // smoother movement. To try each out just enable them below.
 // Junction Deviation is NOT supported on the Wanhao i3 Plus at this time.
-//#define JUNCTION_DEVIATION_ON
-//#define S_CURVE_ACCELERATION_ON
+#define JUNCTION_DEVIATION_ON
+#define S_CURVE_ACCELERATION_ON
 
 //================================================================================================
 // Language - This is provided for convenience and is unsupported with included product support.
